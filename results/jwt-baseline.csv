@@ -1,0 +1,16 @@
+scenario,trial,expected,actual,reason,passed
+JWT-Normal,1,ACCEPTED,ACCEPTED,Access granted,true
+JWT-Normal,2,ACCEPTED,ACCEPTED,Access granted,true
+JWT-Normal,3,ACCEPTED,ACCEPTED,Access granted,true
+JWT-Normal,4,ACCEPTED,ACCEPTED,Access granted,true
+JWT-Normal,5,ACCEPTED,ACCEPTED,Access granted,true
+JWT-Replay,1,REJECTED,REJECTED,Replay detected,true
+JWT-Replay,2,REJECTED,REJECTED,Replay detected,true
+JWT-Replay,3,REJECTED,REJECTED,Replay detected,true
+JWT-Replay,4,REJECTED,REJECTED,Replay detected,true
+JWT-Replay,5,REJECTED,REJECTED,Replay detected,true
+JWT-BlacklistReset,1,ACCEPTED,ACCEPTED,Access granted,true
+JWT-BlacklistReset,2,ACCEPTED,ACCEPTED,Access granted,true
+JWT-BlacklistReset,3,ACCEPTED,ACCEPTED,Access granted,true
+JWT-BlacklistReset,4,ACCEPTED,ACCEPTED,Access granted,true
+JWT-BlacklistReset,5,ACCEPTED,ACCEPTED,Access granted,true

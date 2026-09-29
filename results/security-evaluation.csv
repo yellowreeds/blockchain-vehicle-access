@@ -1,0 +1,56 @@
+scenario,trial,expected,actual,reason,passed
+Expiry,1,REJECTED,REJECTED,Expired,true
+Expiry,2,REJECTED,REJECTED,Expired,true
+Expiry,3,REJECTED,REJECTED,Expired,true
+Expiry,4,REJECTED,REJECTED,Expired,true
+Expiry,5,REJECTED,REJECTED,Expired,true
+Replay,1,REJECTED,REJECTED,Replay detected,true
+Replay,2,REJECTED,REJECTED,Replay detected,true
+Replay,3,REJECTED,REJECTED,Replay detected,true
+Replay,4,REJECTED,REJECTED,Replay detected,true
+Replay,5,REJECTED,REJECTED,Replay detected,true
+Geofence,1,REJECTED,REJECTED,Outside geofence,true
+Geofence,2,REJECTED,REJECTED,Outside geofence,true
+Geofence,3,REJECTED,REJECTED,Outside geofence,true
+Geofence,4,REJECTED,REJECTED,Outside geofence,true
+Geofence,5,REJECTED,REJECTED,Outside geofence,true
+Revocation,1,REJECTED,REJECTED,Revoked,true
+Revocation,2,REJECTED,REJECTED,Revoked,true
+Revocation,3,REJECTED,REJECTED,Revoked,true
+Revocation,4,REJECTED,REJECTED,Revoked,true
+Revocation,5,REJECTED,REJECTED,Revoked,true
+Tamper-expiredAt,1,REJECTED,REJECTED,Invalid signature,true
+Tamper-expiredAt,2,REJECTED,REJECTED,Invalid signature,true
+Tamper-expiredAt,3,REJECTED,REJECTED,Invalid signature,true
+Tamper-expiredAt,4,REJECTED,REJECTED,Invalid signature,true
+Tamper-expiredAt,5,REJECTED,REJECTED,Invalid signature,true
+Tamper-didTruck,1,REJECTED,REJECTED,Invalid signature,true
+Tamper-didTruck,2,REJECTED,REJECTED,Invalid signature,true
+Tamper-didTruck,3,REJECTED,REJECTED,Invalid signature,true
+Tamper-didTruck,4,REJECTED,REJECTED,Invalid signature,true
+Tamper-didTruck,5,REJECTED,REJECTED,Invalid signature,true
+Tamper-didDriver,1,REJECTED,REJECTED,Invalid signature,true
+Tamper-didDriver,2,REJECTED,REJECTED,Invalid signature,true
+Tamper-didDriver,3,REJECTED,REJECTED,Invalid signature,true
+Tamper-didDriver,4,REJECTED,REJECTED,Invalid signature,true
+Tamper-didDriver,5,REJECTED,REJECTED,Invalid signature,true
+Tamper-plateNumber,1,REJECTED,REJECTED,Invalid signature,true
+Tamper-plateNumber,2,REJECTED,REJECTED,Invalid signature,true
+Tamper-plateNumber,3,REJECTED,REJECTED,Invalid signature,true
+Tamper-plateNumber,4,REJECTED,REJECTED,Invalid signature,true
+Tamper-plateNumber,5,REJECTED,REJECTED,Invalid signature,true
+Tamper-nonce,1,REJECTED,REJECTED,Invalid signature,true
+Tamper-nonce,2,REJECTED,REJECTED,Invalid signature,true
+Tamper-nonce,3,REJECTED,REJECTED,Invalid signature,true
+Tamper-nonce,4,REJECTED,REJECTED,Invalid signature,true
+Tamper-nonce,5,REJECTED,REJECTED,Invalid signature,true
+KeyRotation-OldKey,1,REJECTED,REJECTED,Invalid signature,true
+KeyRotation-NewKey,1,ACCEPTED,ACCEPTED,Access granted,true
+KeyRotation-OldKey,2,REJECTED,REJECTED,Invalid signature,true
+KeyRotation-NewKey,2,ACCEPTED,ACCEPTED,Access granted,true
+KeyRotation-OldKey,3,REJECTED,REJECTED,Invalid signature,true
+KeyRotation-NewKey,3,ACCEPTED,ACCEPTED,Access granted,true
+KeyRotation-OldKey,4,REJECTED,REJECTED,Invalid signature,true
+KeyRotation-NewKey,4,ACCEPTED,ACCEPTED,Access granted,true
+KeyRotation-OldKey,5,REJECTED,REJECTED,Invalid signature,true
+KeyRotation-NewKey,5,ACCEPTED,ACCEPTED,Access granted,true

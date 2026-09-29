@@ -1,0 +1,16 @@
+scenario,trial,expected,actual,reason,passed
+Blockchain-Normal,1,USED,USED,Blockchain usage state,true
+Blockchain-Normal,2,USED,USED,Blockchain usage state,true
+Blockchain-Normal,3,USED,USED,Blockchain usage state,true
+Blockchain-Normal,4,USED,USED,Blockchain usage state,true
+Blockchain-Normal,5,USED,USED,Blockchain usage state,true
+Blockchain-Replay,1,REJECTED,REJECTED,Already used,true
+Blockchain-Replay,2,REJECTED,REJECTED,Already used,true
+Blockchain-Replay,3,REJECTED,REJECTED,Already used,true
+Blockchain-Replay,4,REJECTED,REJECTED,Already used,true
+Blockchain-Replay,5,REJECTED,REJECTED,Already used,true
+Blockchain-Revocation,1,REJECTED,REJECTED,Revoked,true
+Blockchain-Revocation,2,REJECTED,REJECTED,Revoked,true
+Blockchain-Revocation,3,REJECTED,REJECTED,Revoked,true
+Blockchain-Revocation,4,REJECTED,REJECTED,Revoked,true
+Blockchain-Revocation,5,REJECTED,REJECTED,Revoked,true
