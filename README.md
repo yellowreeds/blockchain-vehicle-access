@@ -152,4 +152,4 @@ Only implemented properties are experimentally evaluated. DID identity and key-m
 
 ## Notes
 
-This repository is a compact reference implementation intended to reproduce the security mechanisms and experiments described in the study. It is not a production deployment.
+This repository is a compact reference implementation intended to reproduce the core security mechanisms and experiments described in the study. The original full implementation was developed as company-owned proprietary software and therefore cannot be publicly released. This repository reconstructs the same core mechanisms used in the production deployment in a simplified and reproducible form for research verification and evaluation. It is not the original production source code and is not intended for production deployment.
